@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Mooli', sans-serif;
+    background-repeat: no-repeat;
+
+}
+
+/* backgrougn image */
+.bg-image{
+    position: absolute;
+    z-index: -10;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-image img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    padding: 10px;
+    margin: 1px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 11%, rgba(7,147,34,1) 28%, rgba(175,4,49,1) 59%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 10px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 5px 19px;
+    width: 129px;
+}
+
+#destination{
+    margin-top: 120vh;
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 10rem;
+    
+}
+.card1{
+    height: 500px;
+    width: 500px;
+    background-color:aqua;
+   
+}
+.card2{
+    height: 500px;
+    width: 500px;
+    background-color:aqua;
+   
+     
+}
+.card3{
+    height: 500px;
+    width: 500px;
+    background-color:aqua;
+   }
+   #about{
+    margin-top: 400px;
+   }
+   .ab{
+    padding: 2rem;
+    color: goldenrod;
+    font-size: larger;
+    letter-spacing: normal;
+    line-height:30px;
+   }
+   #abh{
+    text-align: center;
+    font-size: 100px;
+    color: crimson;
+    
+    
+   }
+    #contact{
+        margin-top: 400px;
+    }
+   .cus{
+    height: 500px;
+    width: 600px;
+    background-color: aqua;
+   margin-left: 45rem;
+   margin-bottom: 5rem;
+
+
+   }
+.contus{
+      
+      text-align: centre;
+      padding-left:14rem ;
+      padding-top: 2rem;
+      
+
+   }
+   .container{
+    display: flex;
+    justify-content:space-evenly;
+
+   }
+   i{
+  margin-top: 10rem;
+    font-size:10em !important;
+    
+
+  }
+  .copy{
+    width: 100vw;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(162, 4, 12);
+}
